@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .background-styling{
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            width: 600px;
+            height: 600px;
+            background: linear-gradient(to left,pink,RGB(255,204,153) )
+            
+            
+        }
+       
+        .background-styling:hover{
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            color: rgba(0, 0, 0, 0.871);
+            width: 600px;
+            height: 600px;
+            background: linear-gradient(to left,rgb(228, 47, 77),lightblue )
+            
+            
+
+        }
+        .duar h1, p{
+            opacity: 0.5;
+        
+        }
+        .pstion-relative div{
+            width: 200px;
+            height: 200px;
+        }
+    .pstion-relative{
+        position: relative;
+            width: 350px;
+    }
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        .satu{
+            background-color: red;
+            position: absolute;
+            left: 75px;    
+            z-index: 2;
+        }
+        .dua{
+            background-color: yellow;
+            position:absolute;
+            right: 0px;
+        }
+        .tiga{
+            position: absolute;
+            background-color: green;
+            
+            left: 0px;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <!-- <center>
+
+        <div class="background-styling">
+            <div class="duar">
+
+                <h1>background WY</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, libero quis nam labore rem doloribus iure corrupti nesciunt consequatur nobis! Excepturi sapiente atque, cupiditate quo sint nisi quia animi voluptas.</p>
+            </div>
+        </div>
+    </center> -->
+  
+    <section class="pstion-relative">
+        <div class="satu">1</div>
+        <div class="dua">2</div>
+        <div class="tiga">3</div>
+        
+
+        
+    </section>
+</body>
+</html>

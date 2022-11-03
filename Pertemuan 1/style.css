@@ -1,0 +1,26 @@
+/* body{
+    min-height: 10000px;
+} */
+
+
+
+
+.jumbotron{
+    background-color:#deb887;
+    padding-top: 200px;
+}
+
+.about-section{
+    padding-top: 100px;
+}
+.project-section{
+    padding-top: 100px;
+
+}
+
+.tools-skills-section{
+    padding-top: 100px;
+}
+.contact-section{
+    padding-top: 100px;
+}
